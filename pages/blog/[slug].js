@@ -11,7 +11,7 @@ const Slug = ({ selectedBlogpass,allBlogs }) => {
       navigator.share({
         title: selectedBlog?.title || 'Blog @Cluster Protocol',
         text: selectedBlog?.description || 'Read this Blog from Cluster Protocol',
-        url: window.location.href || 'https://www.clusterprotocol.io'
+        url: window.location.href || 'https://www.clusterprotocol.ai'
       })
       .then(() => console.log('Shared successfully'))
       .catch((error) => console.error('Error sharing:', error));
@@ -21,7 +21,7 @@ const Slug = ({ selectedBlogpass,allBlogs }) => {
   }
   function shareTwitter(){
     console.log(window.location.href);
-    const fullintent = `https://twitter.com/intent/post?text=Check this Blog Out by @clusterprotocol %0A&url=${window.location.href || 'https://www.clusterprotocol.io'}` 
+    const fullintent = `https://twitter.com/intent/post?text=Check this Blog Out by @clusterprotocol %0A&url=${window.location.href || 'https://www.clusterprotocol.ai'}` 
     window.open(fullintent, '_blank');
   }
 
@@ -214,9 +214,9 @@ export async function getServerSideProps(context) {
   try {
 
 
-    const response = await fetch(`https://clusterbackend.vercel.app/api/getblog/${slug}`);
+    const response = await fetch(`https://blog.server.clusterprotocol.ai/api/getblog/${slug}`);
     const blog = await response.json();
-    const response2 = await fetch(`https://www.clusterprotocol.io/api/blogs`);
+    const response2 = await fetch(`https://www.clusterprotocol.ai/api/blogs`);
     const data = await response2.json();
     
     const selectedBlogpass = {

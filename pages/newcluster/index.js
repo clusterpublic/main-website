@@ -6,7 +6,7 @@ export default function NewCluster() {
       <img className="backgroundBoxEffect" src="assets/bgeffect.png" alt="Background"></img>
       <div className="navbar">
         <div className="NavbarLogo">
-          <img src="https://www.clusterprotocol.io/_next/image?url=%2Fassets%2FclusterProtocol.png&w=256&q=75" alt="Cluster Protocol Logo"></img>
+          <img src="https://www.clusterprotocol.ai/_next/image?url=%2Fassets%2FclusterProtocol.png&w=256&q=75" alt="Cluster Protocol Logo"></img>
         </div>
         <div className="navbarLinks">
           <div className="navbarLinksItem">
@@ -101,7 +101,7 @@ export default function NewCluster() {
       </div>
       {/* Remaining sections */}
       <div className="footer">
-        <img src="https://www.clusterprotocol.io/_next/image?url=%2Fassets%2FclusterProtocol.png&w=256&q=75" alt="Cluster Protocol Logo"></img>
+        <img src="https://www.clusterprotocol.ai/_next/image?url=%2Fassets%2FclusterProtocol.png&w=256&q=75" alt="Cluster Protocol Logo"></img>
         <div className="gWhite" style={{ fontWeight: 'bold', width: '90%', fontSize: '1.2rem' }}>
           Decentralized AI Infrastructure Powered by AltLayer<br></br>
           with Underneath EigenLayer.

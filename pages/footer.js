@@ -30,7 +30,7 @@ const Footer = () => {
           {/* <li><Link href="/waitlist">Join Waitlist</Link></li> */}
           <li><Link href="https://twitter.com/ClusterProtocol">Twitter</Link></li>
           <li><Link href="https://t.me/clusterprotocolchat">Telegram</Link></li>
-          <li><Link href="https://testnet.clusterprotocol.io">Try Testnet</Link></li>
+          <li><Link href="https://testnet.clusterprotocol.ai">Try Testnet</Link></li>
 
         </ul>
       </div>
@@ -45,7 +45,7 @@ const Footer = () => {
         </ul>
       </div>
       <div style={{ margin: '2vh 0', display: 'flex', justifyContent: 'space-between', width: '100vw', flexWrap: 'wrap' }}>
-        <h4 style={{ fontWeight: '200' }}><strong>Email: </strong>support@Clusterprotocol.io</h4>
+        <h4 style={{ fontWeight: '200' }}><strong>Email: </strong>support@Clusterprotocol.ai</h4>
         <h4 style={{ fontWeight: '200' }}>© Copyright Cluster Protocol 2024</h4>
       </div>
     </footer>

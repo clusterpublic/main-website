@@ -67,7 +67,7 @@ const Blogs = ({ allBlogs }) => {
 export async function getServerSideProps() {
   try {
     // const response = await fetch(`http://localhost:3000/api/blogs`);
-    const response = await fetch(`https://www.clusterprotocol.io/api/blogs`);
+    const response = await fetch(`https://www.clusterprotocol.ai/api/blogs`);
     // const response = await fetch(`https://clusterbackend.vercel.app/api/getblogpage/1`);
     const data = await response.json();
     console.log(data['blogs']);
