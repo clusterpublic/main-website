@@ -333,7 +333,7 @@ export default function Homepage() {
         <div className='archVideo-border-box-container'>
             <div className="archVideo-border-box-glow"></div>
             <div className="archVideo-border-box">
-              <video src="https://www.clusterprotocol.ai/assets/arch.mp4" className='archMain' autoPlay muted loop></video>
+              <video src="https://www.clusterprotocol.ai/assets/arch.webm" className='archMain' autoPlay muted loop></video>
 
             </div>
           </div>
