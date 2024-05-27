@@ -214,9 +214,9 @@ export default function Homepage() {
           </div>
           <div className="secHomeInfoContainer keyofferingContainer" >
             <h2 style={{ fontSize: '1rem' }} className="gWhite">Key Offering</h2>
-            <video autoPlay loop muted playsInline className='HIDEmobileView'  style={{maxWidth:'100%',  marginTop: '2rem', marginLeft:'0rem'}}> <source src="./clusterasset/keyoffering.webm" type="video/webm"/></video>
+            <video autoPlay loop muted playsInline className=''  style={{maxWidth:'100%',  marginTop: '2rem', marginLeft:'0rem'}}> <source src="./clusterasset/keyoffering.webm" type="video/webm"/></video>
 
-            <LazyLoadImage className='SHOWmobileView' style={{marginTop: '2rem', width: '100%', filter: 'drop-shadow(0 0 5rem white)' }} src="assets/keyoffer.svg" alt="Key Offering"></LazyLoadImage>
+            {/* <LazyLoadImage className='SHOWmobileView' style={{marginTop: '2rem', width: '100%', filter: 'drop-shadow(0 0 5rem white)' }} src="assets/keyoffer.svg" alt="Key Offering"></LazyLoadImage> */}
           </div>
         </div>
         <div className="secHome2">
