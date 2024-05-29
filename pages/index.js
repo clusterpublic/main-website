@@ -418,7 +418,7 @@ export default function Homepage() {
       />
       <TeamCard
         name="Tomer Warschauer"
-        role="Digital Marketing Leader"
+        role="Forbes, Cointelegraph Contributor & CMO Kima Network"
         imageSrc="./clusterasset/people/tomer.jpg"
         linkedinProfile="https://www.linkedin.com/in/tomernuni/"
       />
