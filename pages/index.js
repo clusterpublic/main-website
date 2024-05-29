@@ -172,7 +172,15 @@ export default function Homepage() {
         {"name": "Glacier", "url": "https://www.glacier.io/", "blog": "/blog/partnership-announcement-glacier-network-joins-forces-with-cluster-protocol-1715012959"},
         {"name": "hybrid", "url": "https://buildonhybrid.com/", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-hybrid--1715097720"},
         {"name": "KIMA Network", "url": "https://kima.finance/", "blog": null},
-        {"name": "Coldstack", "url": "https://coldstack.io/", "blog": null}
+        {"name": "Nuno Cloud", "url": "https://x.com/nucocloud", "blog": "https://clusterprotocol.ai/blog/cluster-protocols-partnership-with-nucocloud-a-leap-towards-decentralized-computing-and-ai-1716821376"},
+        {"name": "Koi", "url": "https://x.com/Koi_BTC", "blog": "https://clusterprotocol.ai/blog/a-new-era-in-social-gaming-and-ai-the-koi-and-cluster-protocol-partnership-1716563983"},
+        {"name": "Micro3", "url": "https://x.com/Micro3io", "blog": null},
+        {"name": "Your Ai", "url": "https://x.com/yourtokens", "blog": "https://medium.com/@clusterprotocol.io/cluster-protocol-partners-with-your-ai-to-revolutionize-e-commerce-content-ac4d96b45a32"},
+        {"name": "Mint", "url": "https://x.com/Mint_Blockchain", "blog": "https://medium.com/@clusterprotocol.io/cluster-protocol-announces-its-partnership-with-mint-blockchain-5f4b1e21ce09"},
+        {"name": "Rivalz Network", "url": "https://x.com/Rivalz_AI", "blog": "https://clusterprotocol.ai/blog/partnership-announcement-rivalz-and-cluster-protocol-joinforces-1715956617"},
+        {"name": "YOM", "url": "https://x.com/YOM_Official", "blog": "https://clusterprotocol.ai/blog/powering-next-gen-gaming-the-strategic-partnership-between-yom-and-clusterprotocol-1715784179"},
+        {"name": "Unmarshal", "url": "https://x.com/UnmarshalAI", "blog": "https://clusterprotocol.ai/blog/cluster-protocol-partners-with-unmarshal-to-revolutionize-data-access-and-ai-deployment-1715616514"},
+        {"name": "Byte AI", "url": "https://x.com/ByteAIToken", "blog": "https://clusterprotocol.ai/blog/cluster-protocol-and-byteai-partnership-reshaping-artificial-intelligence-ai-and-news-distribution-1715439661"},
       ];
   return (
     <>
