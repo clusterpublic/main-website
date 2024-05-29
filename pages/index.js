@@ -465,7 +465,9 @@ export default function Homepage() {
           <img key={index} src={`./clusterasset/partners/${company.name}.png`} alt={company.name} onClick={() => openPartnerPopup(company)} />
         // </Link>
       ))}
+
     </div>
+        <h1 className="gWhite" style={{textAlign:"center",marginLeft:"auto",marginRight:"auto",fontSize:"1rem"}}>MANY MORE+</h1>
     {selectedCompany  && (
         <div className="PartnerPopup">
           <div className="PartnerPopupContent">
