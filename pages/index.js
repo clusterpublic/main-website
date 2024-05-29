@@ -391,7 +391,7 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem', width: '90%', margin: '5rem auto' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem', width: '90%', margin: '5rem auto 1rem' }}>
       <TeamCard
         name="Marcello Mari"
         role="Founder & CEO   @SingularityDAO "
@@ -459,6 +459,8 @@ export default function Homepage() {
         linkedinProfile="https://www.linkedin.com/in/vijaygarg86/"
       />
     </div>
+    <h1 className="gWhite" style={{textAlign:"center",marginLeft:"auto",marginRight:"auto",marginBottom:"5rem",fontSize:"1rem"}}>MANY MORE+</h1>
+
 
       <div className='partnerDIV'>
       {backers.map((company, index) => (
