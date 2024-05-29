@@ -145,7 +145,9 @@ export default function Homepage() {
       {"url": "https://unrealcapital.vc/", "name": "Unreal Capital"},
       {"url": "https://halvingscapital.com/", "name": "Halving Capital"},
       {"url": "https://spicy.capital/", "name": "Spicy Capital"},
-      {"url": "https://dutchcryptoinvestors.com/", "name": "DCI"}
+      {"url": "https://dutchcryptoinvestors.com/", "name": "DCI"},
+      {"url": "https://gemhead.capital/", "name": "Gemhead Capital"},
+      {"url": "https://www.genesiscapital.vc/", "name": "Genesis Capital"},
   ]
   
       const companies = [
@@ -391,11 +393,23 @@ export default function Homepage() {
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem', width: '90%', margin: '5rem auto' }}>
       <TeamCard
-        name="Ryan Horn"
-        role="CEO @Mark, Founder @N3ON"
-        imageSrc="./clusterasset/people/ryan.jpg"
-        linkedinProfile="https://www.linkedin.com/in/hornryan/"
+        name="Marcello Mari"
+        role="Founder & CEO   @SingularityDAO "
+        imageSrc="./clusterasset/people/marcello.jpeg"
+        linkedinProfile="https://www.linkedin.com/in/marcellomari/"
       />
+       <TeamCard
+        name="Sander Gortjes"
+        role="Co-owner @HELLO Labs"
+        imageSrc="./clusterasset/people/sander.jpeg"
+        linkedinProfile="https://www.linkedin.com/in/sandergortjes/"
+      /> 
+      <TeamCard
+      name="Ryan Horn"
+      role="CEO @Mark, Founder @N3ON"
+      imageSrc="./clusterasset/people/ryan.jpg"
+      linkedinProfile="https://www.linkedin.com/in/hornryan/"
+    />
       <TeamCard
         name="Tal Cohen"
         role="Kraken USA Managing Director"
