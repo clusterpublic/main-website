@@ -406,7 +406,7 @@ export default function Homepage() {
       /> 
       <TeamCard
       name="Ryan Horn"
-      role="CEO @Mark, Founder @N3ON"
+      role="Founder @N3ON,Ex-Binance"
       imageSrc="./clusterasset/people/ryan.jpg"
       linkedinProfile="https://www.linkedin.com/in/hornryan/"
     />
