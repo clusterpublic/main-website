@@ -16,10 +16,10 @@ const Footer = () => {
           id="navbarSocials"
           style={{ width: '65%', justifyContent: 'flex-start', gap: '15%' }}
         >
-          <Link href="https://t.me/clusterprotocolchat"><img src="/assets/telegram.svg" alt="telegram"/></Link>
-          <Link href="https://twitter.com/ClusterProtocol"><img src="/assets/twitter 2.svg" alt="Twitter"/></Link>
-          <Link href="https://cluster-protocol.gitbook.io/whitepaper/"><img src="/assets/docs.svg" alt="Book"/></Link>
-          <Link href="https://medium.com/@clusterprotocol.io"><img src="/assets/medium.webp" style={{height:'1.7rem'}} alt="Medium"/></Link>
+          <a target="_blank" href="https://t.me/clusterprotocolchat"><img src="/assets/telegram.svg" alt="telegram"/></a>
+          <a target="_blank" href="https://twitter.com/ClusterProtocol"><img src="/assets/twitter 2.svg" alt="Twitter"/></a>
+          <a target="_blank" href="https://cluster-protocol.gitbook.io/whitepaper/"><img src="/assets/docs.svg" alt="Book"/></a>
+          <a target="_blank" href="https://medium.com/@clusterprotocol.io"><img src="/assets/medium.webp" style={{height:'1.7rem'}} alt="Medium"/></a>
 
         </div>
       </div>
@@ -27,10 +27,10 @@ const Footer = () => {
       <div className="columnFooter">
         <h3>Community</h3>
         <ul>
-          {/* <li><Link href="/waitlist">Join Waitlist</Link></li> */}
-          <li><Link href="https://twitter.com/ClusterProtocol">Twitter</Link></li>
-          <li><Link href="https://t.me/clusterprotocolchat">Telegram</Link></li>
-          <li><Link href="https://testnet.clusterprotocol.ai">Try Testnet</Link></li>
+          {/* <li><a target="_blank" href="/waitlist">Join Waitlist</a></li> */}
+          <li><a target="_blank" href="https://twitter.com/ClusterProtocol">Twitter</a></li>
+          <li><a target="_blank" href="https://t.me/clusterprotocolchat">Telegram</a></li>
+          <li><a target="_blank" href="https://testnet.clusterprotocol.ai">Try Testnet</a></li>
 
         </ul>
       </div>
@@ -41,7 +41,7 @@ const Footer = () => {
           <li><Link href="/#about">About Us</Link></li>
           {/* <li><Link href="/glossary">Glossary</Link></li> */}
           <li><Link href="/brandkit">Brandkit</Link></li>
-          <li><Link href="https://cluster-protocol.gitbook.io/whitepaper/">Whitepaper</Link></li>
+          <li><a target="_blank" href="https://cluster-protocol.gitbook.io/whitepaper/">Whitepaper</a></li>
         </ul>
       </div>
       <div style={{ margin: '2vh 0', display: 'flex', justifyContent: 'space-between', width: '100vw', flexWrap: 'wrap' }}>

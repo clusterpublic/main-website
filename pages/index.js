@@ -14,9 +14,9 @@ const TeamCard = ({ name, role, imageSrc, linkedinProfile }) => {
         <h1 className="gWhite">{name}</h1>
         <h2 className="gGrey">{role}</h2>
         <div className="teamSocialContainer">
-          <Link href={linkedinProfile}>
+          <a  target="_blank" href={linkedinProfile}>
             <LazyLoadImage src="assets/linkedin.svg" style={{ width: '2rem' }} alt="LinkedIn" />
-          </Link>
+          </a>
           {/* Add other social icons here */}
         </div>
       </div>
@@ -138,7 +138,7 @@ export default function Homepage() {
 
    const backers =[
       {"url": "https://mapleblock.capital/", "name": "Mapleblock Capital"},
-      {"url": "https://gd10.capital/", "name": "GD 10"},
+      // {"url": "https://gd10.capital/", "name": "GD 10"},
       // {"url": "https://moonedge.finance/", "name": "Moonedge"},
       {"url": "https://www.fairumventures.com/", "name": "Fairum Ventures"},
       {"url": "https://0xpivot.com/", "name": "Pivot Ventures"},
@@ -372,8 +372,8 @@ export default function Homepage() {
             <h1 className="gWhite">Prateek Bhatia</h1>
             <h2 className="gGrey">CEO & Co-Founder</h2>
             <div className="teamSocialContainer">
-            <Link href="https://www.linkedin.com/in/prateekbhatia-/" ><LazyLoadImage src="assets/linkedin.svg" style={{ width: '2rem' }} alt="LinkedIn"></LazyLoadImage></Link>
-            <Link href="https://twitter.com/pra733k_" ><LazyLoadImage src="assets/twitter.svg" style={{ width: '1.8rem', opacity: 0.5 }} alt="Twitter"></LazyLoadImage></Link>
+            <a target="_blank" href="https://www.linkedin.com/in/prateekbhatia-/" ><LazyLoadImage src="assets/linkedin.svg" style={{ width: '2rem' }} alt="LinkedIn"></LazyLoadImage></a>
+            <a target="_blank" href="https://twitter.com/pra733k_" ><LazyLoadImage src="assets/twitter.svg" style={{ width: '1.8rem', opacity: 0.5 }} alt="Twitter"></LazyLoadImage></a>
             </div>
           </div>
         </div>
@@ -385,8 +385,8 @@ export default function Homepage() {
             <h1 className="gWhite">Yatharth Jain</h1>
             <h2 className="gGrey">CBO & Co-Founder</h2>
             <div className="teamSocialContainer">
-            <Link href="https://www.linkedin.com/in/depindaddy/" ><LazyLoadImage src="assets/linkedin.svg" style={{ width: '2rem' }} alt="LinkedIn"></LazyLoadImage></Link>
-            <Link href="https://twitter.com/depindaddy/" ><LazyLoadImage src="assets/twitter.svg" style={{ width: '1.8rem', opacity: 0.5 }} alt="Twitter"></LazyLoadImage></Link>
+            <a target="_blank" href="https://www.linkedin.com/in/depindaddy/" ><LazyLoadImage src="assets/linkedin.svg" style={{ width: '2rem' }} alt="LinkedIn"></LazyLoadImage></a>
+            <a target="_blank" href="https://twitter.com/depindaddy/" ><LazyLoadImage src="assets/twitter.svg" style={{ width: '1.8rem', opacity: 0.5 }} alt="Twitter"></LazyLoadImage></a>
             </div>
           </div>
         </div>
@@ -464,9 +464,9 @@ export default function Homepage() {
 
       <div className='partnerDIV'>
       {backers.map((company, index) => (
-        <Link href={company.url}>
+        <a target="_blank" href={company.url}>
           <img key={index} src={`./clusterasset/partners/${company.name}.png`} alt={company.name} />
-        </Link>
+        </a>
 
       ))}
     </div>      
@@ -496,13 +496,13 @@ export default function Homepage() {
               alt={selectedCompany.name}
             />
             <div className='PartnerPopupButtonContainer'>
-            <Link href={selectedCompany.url}>
+            <a target="_blank" href={selectedCompany.url}>
               <p>🌐 Website</p>
-            </Link>
+            </a>
             {selectedCompany.blog?
-            <Link href={selectedCompany.blog}>
+            <a target="_blank" href={selectedCompany.blog}>
               <p>✦ Read Partnership Blog</p>
-            </Link>
+            </a>
             :""
             }
             </div>
