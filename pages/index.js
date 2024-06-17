@@ -4,6 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import Link from 'next/link';
 import Head from "next/head";
 import { LuSparkles } from 'react-icons/lu';
+import Image from 'next/image';
 
 const TeamCard = ({ name, role, imageSrc, linkedinProfile }) => {
   return (
@@ -209,7 +210,7 @@ export default function Homepage() {
           <div className="secHomeInfoContainer">
             <LazyLoadImage src="assets/sidelinehome.png" alt="Sideline home" className='HIDEmobileView'></LazyLoadImage>
             <div className="secHomeButtoninfoContainer">
-              <h1  className="tagline gGrey">Powered by Arbitrum & EigenLayer's DA.</h1>
+              <h1  className="tagline gGrey">Powered by <Image src="/chains/eigenlayer.png" width={20} height={20} /> & <Image src="/chains/arbitrum.png" width={23} height={26} />'s DA.</h1>
               <div className="secHomeButtonContainer">
                   <div className='animated-border-box-container'>
                     <div className="animated-border-box-glow"></div>
