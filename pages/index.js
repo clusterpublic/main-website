@@ -210,7 +210,7 @@ export default function Homepage() {
           <div className="secHomeInfoContainer">
             <LazyLoadImage src="assets/sidelinehome.png" alt="Sideline home" className='HIDEmobileView'></LazyLoadImage>
             <div className="secHomeButtoninfoContainer">
-              <h1  className="tagline gGrey">Powered by <Image src="/chains/eigenlayer.png" width={20} height={20} /> & <Image src="/chains/arbitrum.png" width={23} height={26} />'s DA.</h1>
+              <h1  className="tagline gGrey">Powered by <Image src="/chains/arbitrum.png" width={23} height={23} /> Arbitrum & <Image src="/chains/eigenlayer.png" width={18} height={20} /> Eigenlayer's DA.</h1>
               <div className="secHomeButtonContainer">
                   <div className='animated-border-box-container'>
                     <div className="animated-border-box-glow"></div>
