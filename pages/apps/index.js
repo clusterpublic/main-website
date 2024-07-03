@@ -17,9 +17,9 @@ const AiArena = () => {
           "image": "https://superx.clusterprotocol.ai/word-white-logo.png"
       },
       {
-        "name": "SuperX",
-        "description": " Transform Your X Conversations with AI",
-        "url": "https://superx.clusterprotocol.ai",
+        "name": "Coming Soon...",
+        "description": " ",
+        "url": "#",
         "image": "https://superx.clusterprotocol.ai/word-white-logo.png"
     },
       
@@ -81,7 +81,8 @@ const AiArena = () => {
                     width: "15rem",
                     objectFit: "contain",
                     top: '-1rem',
-                    left:'4rem'
+                    left:'4rem',
+                    filter:index==2?"blur(16px)":""
                   }}
                 ></img>
 
