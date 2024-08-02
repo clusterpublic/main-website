@@ -11,7 +11,7 @@ const Footer = () => {
           src="/assets/clusterProtocol.webp"
           alt="Cluster Protocol"
         />
-
+        <meta name="google-site-verification" content="FDje1JpmzCynbbeUvRJLsdDR5yXbP9C9zhZKtN5_Dv0" />
         <div
           id="navbarSocials"
           style={{ width: '65%', justifyContent: 'flex-start', gap: '15%' }}
@@ -34,6 +34,7 @@ const Footer = () => {
 
         </ul>
       </div>
+          
 
       <div className="columnFooter">
         <h3>Company</h3>
