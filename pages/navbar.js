@@ -100,7 +100,6 @@ const Navbar = () => {
         <Link href={"https://t.me/clusterprotocolchat"} target='_blank_'><button className="b1">Join</button></Link>
         </div> */}
       </div>
-      <meta name="google-site-verification" content="JwVXdYJqcCJlKvmJvXIMQ1XQyVZO_EyCTPXo62VOi1w" />
       );
     };
     
