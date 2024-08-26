@@ -189,6 +189,8 @@ export default function Homepage() {
     <>
     <Head>
       <title>Cluster Protocol </title>
+      <meta name="title" content="Decentralized Infrastructure for AI and Github for AI models">
+      <meta name="description" content="Blockchain powered decentralized infrastructure to build AI solutions, agents and chatbots.">
       {/* <meta name="google-site-verification" content="JJGvDA-BM8tLfcKzOkRdenbMYi956rPw8WHFVMZhueE"></meta> */}
       {/* <meta name='description' content="Proof of Compute Protocol"></meta> */}
       <meta property="og:description" content={"World's first decentralized infrastructure for AI and DePINs and Github for AI models"} />
