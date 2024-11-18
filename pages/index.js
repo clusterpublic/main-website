@@ -138,66 +138,78 @@ export default function Homepage() {
   };
 
    const backers =[
-      {"url": "https://mapleblock.capital/", "name": "Mapleblock Capital"},
+      
       // {"url": "https://gd10.capital/", "name": "GD 10"},
       // {"url": "https://moonedge.finance/", "name": "Moonedge"},
-      {"url": "https://www.fairumventures.com/", "name": "Fairum Ventures"},
+      
       {"url": "https://0xpivot.com/", "name": "Pivot Ventures"},
-      {"url": "https://unrealcapital.vc/", "name": "Unreal Capital"},
-      {"url": "https://halvingscapital.com/", "name": "Halving Capital"},
-      {"url": "https://spicy.capital/", "name": "Spicy Capital"},
-      {"url": "https://dutchcryptoinvestors.com/", "name": "DCI"},
-      {"url": "https://gemhead.capital/", "name": "Gemhead Capital"},
-      {"url": "https://www.genesiscapital.vc/", "name": "Genesis Capital"},
+      {"url": "https://mapleblock.capital/", "name": "Mapleblock Capital"},
+      {"url": "https://www.fairumventures.com/", "name": "Fairum Ventures"},
+      // {"url": "https://unrealcapital.vc/", "name": "Unreal Capital"},
+      // {"url": "https://halvingscapital.com/", "name": "Halving Capital"},
+      // {"url": "https://spicy.capital/", "name": "Spicy Capital"},
+      // {"url": "https://dutchcryptoinvestors.com/", "name": "DCI"},
+      // {"url": "https://gemhead.capital/", "name": "Gemhead Capital"},
+      // {"url": "https://www.genesiscapital.vc/", "name": "Genesis Capital"},
   ]
   
-      const companies = [
-        {"name": "web3go", "url": "https://web3go.xyz/", "blog": null},
-        {"name": "gpt360", "url": "https://gpt360.io/", "blog": null},
-        {"name": "iq wiki", "url": "https://iq.wiki/", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-iqwiki-1712848847"},
-        {"name": "pop planet", "url": "https://popp.club/home", "blog": "/blog/cluster-protocol-and-pop-planet-join-forces-to-redefine-web3-monetization-1712927689"},
-        {"name": "ispolink", "url": "https://www.ispolink.com/", "blog": "/blog/cluster-protocol-and-ispolink-forge-a-strategic-partnership-1713278907"},
-        {"name": "openfabric", "url": "https://openfabric.ai/", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-openfabric-ai-1713341957"},
-        {"name": "spheron network", "url": "https://www.spheron.network/", "blog": "/blog/powering-innovation-spheron-network-and-cluster-protocol-forge-to-change-the-way-we-approach-ai-with-industrial-grade-gpus-including-a100s-and-h100s-1713197479"},
-        {"name": "plasm ai", "url": "https://plasm.ai/", "blog": "/blog/revolutionizing-gaming-the-plasm-ai-and-cluster-protocol-partnership-1713886763"},
-        {"name": "aspecta id", "url": "https://aspecta.id/", "blog": "/blog/the-dynamic-partnership-of-cluster-protocol-and-aspecta-1713543014"},
-        {"name": "lilAI", "url": "https://lilai.co/", "blog": "/blog/cluster-protocol-and-lilai-partnership-pioneering-community-safety-and-engagement-1713967604"},
-        {"name": "octavia", "url": "https://octavia.one/", "blog": "blog/cluster-protocol-announces-its-strategic-partnership-with-octavia-1714055721"},
-        {"name": "resistor ai", "url": "https://resistorai.org/", "blog": "/blog/-empowering-ai-innovation-the-resistor-ai-and-cluster-protocol-partnership-1713716243"},
-        {"name": "dmail", "url": "https://dmail.ai/", "blog": "/blog/cluster-protocol--dmail-joins-forces-to-empower-ai-development-1714141162"},
-        {"name": "hypergpt", "url": "https://hypergpt.ai/", "blog": null},
-        {"name": "laika ai", "url": "https://www.laika-ai.io/", "blog": null},
-        {"name": "stratos", "url": "https://www.stratos.xyz/", "blog": "/blog/bridging-ai-and-web3-the-stratos-network-and-cluster-protocol-partnership-1714492484"},
-        {"name": "ait protocol", "url": "https://aitprotocol.ai/", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-ait-protocol-1714726382"},
-        {"name": "xally ai", "url": "https://xally.ai/", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-xally-1714484760"},
-        {"name": "power browser", "url": "https://powerbrowserapp.com/", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-power-browser-1714580652"},
-        {"name": "Synesis One", "url": "https://www.synesis.one/", "blog": "/blog/cluster-protocol-and-synesis-one-revolutionizing-ai-data-processing-and-decentralized-models-1714805543"},
-        {"name": "Glacier", "url": "https://www.glacier.io/", "blog": "/blog/partnership-announcement-glacier-network-joins-forces-with-cluster-protocol-1715012959"},
-        {"name": "hybrid", "url": "https://buildonhybrid.com/", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-hybrid--1715097720"},
-        {"name": "KIMA Network", "url": "https://kima.finance/", "blog": null},
-        {"name": "Nuno Cloud", "url": "https://x.com/nucocloud", "blog": "https://clusterprotocol.ai/blog/cluster-protocols-partnership-with-nucocloud-a-leap-towards-decentralized-computing-and-ai-1716821376"},
-        {"name": "Koi", "url": "https://x.com/Koi_BTC", "blog": "https://clusterprotocol.ai/blog/a-new-era-in-social-gaming-and-ai-the-koi-and-cluster-protocol-partnership-1716563983"},
-        {"name": "Micro3", "url": "https://x.com/Micro3io", "blog": null},
-        {"name": "Your Ai", "url": "https://x.com/yourtokens", "blog": "https://medium.com/@clusterprotocol.io/cluster-protocol-partners-with-your-ai-to-revolutionize-e-commerce-content-ac4d96b45a32"},
-        {"name": "Mint", "url": "https://x.com/Mint_Blockchain", "blog": "https://medium.com/@clusterprotocol.io/cluster-protocol-announces-its-partnership-with-mint-blockchain-5f4b1e21ce09"},
-        {"name": "Rivalz Network", "url": "https://x.com/Rivalz_AI", "blog": "https://clusterprotocol.ai/blog/partnership-announcement-rivalz-and-cluster-protocol-joinforces-1715956617"},
-        {"name": "YOM", "url": "https://x.com/YOM_Official", "blog": "https://clusterprotocol.ai/blog/powering-next-gen-gaming-the-strategic-partnership-between-yom-and-clusterprotocol-1715784179"},
-        {"name": "Unmarshal", "url": "https://x.com/UnmarshalAI", "blog": "https://clusterprotocol.ai/blog/cluster-protocol-partners-with-unmarshal-to-revolutionize-data-access-and-ai-deployment-1715616514"},
-        {"name": "Byte AI", "url": "https://x.com/ByteAIToken", "blog": "https://clusterprotocol.ai/blog/cluster-protocol-and-byteai-partnership-reshaping-artificial-intelligence-ai-and-news-distribution-1715439661"},
-      ];
+
+const companies = [
+    { "name": "web3go", "url": "https://x.com/web3go", "blog": null },
+    { "name": "gpt360", "url": "https://x.com/gpt360", "blog": null },
+    { "name": "iq wiki", "url": "https://x.com/iqwiki", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-iqwiki-1712848847" },
+    { "name": "pop planet", "url": "https://x.com/poppplanet", "blog": "/blog/cluster-protocol-and-pop-planet-join-forces-to-redefine-web3-monetization-1712927689" },
+    { "name": "ispolink", "url": "https://x.com/ispolink", "blog": "/blog/cluster-protocol-and-ispolink-forge-a-strategic-partnership-1713278907" },
+    { "name": "openfabric", "url": "https://x.com/openfabric", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-openfabric-ai-1713341957" },
+    { "name": "spheron network", "url": "https://x.com/spheronnetwork", "blog": "/blog/powering-innovation-spheron-network-and-cluster-protocol-forge-to-change-the-way-we-approach-ai-with-industrial-grade-gpus-including-a100s-and-h100s-1713197479" },
+    { "name": "plasm ai", "url": "https://x.com/plasmai", "blog": "/blog/revolutionizing-gaming-the-plasm-ai-and-cluster-protocol-partnership-1713886763" },
+    { "name": "aspecta id", "url": "https://x.com/aspecta_id", "blog": "/blog/the-dynamic-partnership-of-cluster-protocol-and-aspecta-1713543014" },
+    { "name": "lilAI", "url": "https://x.com/lilai", "blog": "/blog/cluster-protocol-and-lilai-partnership-pioneering-community-safety-and-engagement-1713967604" },
+    { "name": "octavia", "url": "https://x.com/octavia", "blog": "blog/cluster-protocol-announces-its-strategic-partnership-with-octavia-1714055721" },
+    { "name": "resistor ai", "url": "https://x.com/resistorai", "blog": "/blog/-empowering-ai-innovation-the-resistor-ai-and-cluster-protocol-partnership-1713716243" },
+    { "name": "dmail", "url": "https://x.com/dmail", "blog": "/blog/cluster-protocol--dmail-joins-forces-to-empower-ai-development-1714141162" },
+    { "name": "hypergpt", "url": "https://x.com/hypergpt", "blog": null },
+    { "name": "laika ai", "url": "https://x.com/laiakai", "blog": null },
+    { "name": "stratos", "url": "https://x.com/stratosnetwork", "blog": "/blog/bridging-ai-and-web3-the-stratos-network-and-cluster-protocol-partnership-1714492484" },
+    { "name": "ait protocol", "url": "https://x.com/aitprotocol", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-ait-protocol-1714726382" },
+    { "name": "xally ai", "url": "https://x.com/xallyai", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-xally-1714484760" },
+    { "name": "power browser", "url": "https://x.com/powerbrowser", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-power-browser-1714580652" },
+    { "name": "Synesis One", "url": "https://x.com/synesisone", "blog": "/blog/cluster-protocol-and-synesis-one-revolutionizing-ai-data-processing-and-decentralized-models-1714805543" },
+    { "name": "Glacier", "url": "https://x.com/glacierlabs", "blog": "/blog/partnership-announcement-glacier-network-joins-forces-with-cluster-protocol-1715012959" },
+    { "name": "hybrid", "url": "https://x.com/buildonhybrid", "blog": "/blog/cluster-protocol-announces-its-strategic-partnership-with-hybrid--1715097720" },
+    { "name": "KIMA Network", "url": "https://x.com/kimanetwork", "blog": null },
+    { "name": "Nuno Cloud", "url": "https://x.com/nucocloud", "blog": "https://clusterprotocol.ai/blog/cluster-protocols-partnership-with-nucocloud-a-leap-towards-decentralized-computing-and-ai-1716821376" },
+    { "name": "Koi", "url": "https://x.com/koibitcoin", "blog": "https://clusterprotocol.ai/blog/a-new-era-in-social-gaming-and-ai-the-koi-and-cluster-protocol-partnership-1716563983" },
+    { "name": "Micro3", "url": "https://x.com/micro3io", "blog": null },
+    { "name": "Your Ai", "url": "https://x.com/yourai", "blog": "https://medium.com/@clusterprotocol.io/cluster-protocol-partners-with-your-ai-to-revolutionize-e-commerce-content-ac4d96b45a32" },
+    { "name": "Mint", "url": "https://x.com/mintblockchain", "blog": "https://medium.com/@clusterprotocol.io/cluster-protocol-announces-its-partnership-with-mint-blockchain-5f4b1e21ce09" },
+    { "name": "Rivalz Network", "url": "https://x.com/rivalznetwork", "blog": "https://clusterprotocol.ai/blog/partnership-announcement-rivalz-and-cluster-protocol-joinforces-1715956617" },
+    { "name": "YOM", "url": "https://x.com/yomofficial", "blog": "https://clusterprotocol.ai/blog/powering-next-gen-gaming-the-strategic-partnership-between-yom-and-clusterprotocol-1715784179" },
+    { "name": "Unmarshal", "url": "https://x.com/unmarshalai", "blog": "https://clusterprotocol.ai/blog/cluster-protocol-partners-with-unmarshal-to-revolutionize-data-access-and-ai-deployment-1715616514" },
+    { "name": "Byte AI", "url": "https://x.com/byteai", "blog": "https://clusterprotocol.ai/blog/cluster-protocol-and-byteai-partnership-reshaping-artificial-intelligence-ai-and-news-distribution-1715439661" }
+];
+
+function redirectToTwitter(twitterLink) {
+  window.location.href = twitterLink; // Redirect to the Twitter link
+}
+
+
+
+  function redirectToTelegram(telegramLink) {
+    window.location.href = telegramLink; // Redirect to the Telegram link
+  }
   return (
     <>
     <Head>
-      <title>Cluster Protocol </title>
-      <meta name="title" content="Decentralized Infrastructure for AI and Github for AI models">
-      <meta name="description" content="Blockchain powered decentralized infrastructure to build AI solutions, agents and chatbots.">
-      {/* <meta name="google-site-verification" content="JJGvDA-BM8tLfcKzOkRdenbMYi956rPw8WHFVMZhueE"></meta> */}
-      {/* <meta name='description' content="Proof of Compute Protocol"></meta> */}
-      <meta property="og:description" content={"World's first decentralized infrastructure for AI and DePINs and Github for AI models"} />
-      <meta property="og:image" content={'/thumbnail.png'} />
-
-      <link type='image' rel='icon' href="assets/BRAND MARK/PNG/02_WHITE.png"></link>
-    </Head>
+    <title>Cluster Protocol</title>
+    <meta name="title" content="Decentralized Infrastructure for AI and Github for AI models" />
+    <meta name="description" content="Blockchain powered decentralized infrastructure to build AI solutions, agents and chatbots." />
+    {/* <meta name="google-site-verification" content="JJGvDA-BM8tLfcKzOkRdenbMYi956rPw8WHFVMZhueE" /> */}
+    {/* <meta name='description' content="Proof of Compute Protocol" /> */}
+    <meta property="og:description" content="World's first decentralized infrastructure for AI and DePINs and Github for AI models" />
+    <meta property="og:image" content="/thumbnail.png" />
+    <link rel="icon" href="assets/BRAND MARK/PNG/02_WHITE.png" type="image/png" />
+  </Head>
     <div>
       <LazyLoadImage className="backgroundBoxEffect" src="assets/bgeffect.png" alt="Background"></LazyLoadImage>
       <div className="secHome" id='home'>
@@ -206,8 +218,8 @@ export default function Homepage() {
 
         {/* <LottiePlayer autoplay loop src="./clusterasset/minifananim.json" style={{maxWidth:'100%'}}></LottiePlayer> */}
           {/* <LazyLoadImage style={{maxWidth:'100%'}} className='HIDEmobileView' src="assets/linewithminifan.png" alt="Line with mini fan"></LazyLoadImage> */}
-          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">DECENTRALIZED <span className="gPurple">AI</span></h1>
-          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">INFRASTRUCTURE</h1>
+          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">CO-ORDINATION LAYER FOR <span className="gPurple">AI</span></h1>
+          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">AGENTS</h1>
 
           <div className="secHomeInfoContainer">
             <LazyLoadImage src="assets/sidelinehome.png" alt="Sideline home" className='HIDEmobileView'></LazyLoadImage>
@@ -270,8 +282,8 @@ export default function Homepage() {
         <div className="featureCard" style={{ boxShadow: '-3px 0px 0px #5bb8dab0,1px 1px 5rem #9773d216,-0.4px 1px 0rem white' }}>
           <LazyLoadImage src="assets/ts3.png" alt="Feature 4"></LazyLoadImage>
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <h1 className="gWhite" style={{ width: '100%', fontSize: '1.2rem', fontFamily: 'b_bold', marginBottom: '0.5rem' }}>Deploy to Earn</h1>
-            <h1 className="gGrey" style={{ width: '100%', fontSize: '0.7rem' }}>● Maximize GPU rewards when idle<br/> ● Contribute resources to the network<br/> ● Generate consistent passive income<br/> ● Incentives for high uptime<br/> ● Pool resources to improve yields<br/></h1>
+            <h1 className="gWhite" style={{ width: '100%', fontSize: '1.2rem', fontFamily: 'b_bold', marginBottom: '0.5rem' }}>AI Agents Template Library</h1>
+            <h1 className="gGrey" style={{ width: '100%', fontSize: '0.7rem' }}>● Access ready-made AI agents for quick deployment.<br/> ● Modify templates to suit your specific needs.<br/> ● Seamlessly integrate agents into your workflows in seconds.<br/> ● Share, collaborate, and evolve agents with the global community.<br/></h1>
           </div>
         </div>
       </div>
@@ -327,14 +339,14 @@ export default function Homepage() {
       </div>
 
       {/* PRICE COMPARISON CHART */}
-      <div className="headerTitleContainer">
+      {/* <div className="headerTitleContainer">
         <h1 className="gWhite">PRICE COMPARISON CHART</h1>
       </div>
       <div className="graphContainer">
         <LazyLoadImage  className="HIDEmobileView" src="assets/gputable.svg" style={{ flex: 1, minWidth: '300px' }} alt="GPU Table"></LazyLoadImage>
         <LazyLoadImage src="assets/gputableMOBILE.svg" className="gpuMobilegraph" style={{ flex: 1, minWidth: '300px' }} alt="GPU Table"></LazyLoadImage>
         <LazyLoadImage src="assets/graphtable.svg" style={{ flex: 0.8, minWidth: '300px', margin: '0 auto' }} alt="Graph Table"></LazyLoadImage>
-      </div>
+      </div> */}
 
 
       {/* ARCHITECTURE */}
@@ -364,10 +376,10 @@ export default function Homepage() {
       
       {/* MEET OUR TEAM */}
       <div className="headerTitleContainer" id='team'>
-        <h1 className="gWhite" >CORE TEAM AND BACKERS</h1>
+        <h1 className="gWhite" >CORE TEAM AND BACKERS</h1>6%
       </div>
       <div id='CONteam' style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem 1rem', width: '95%', margin: '2rem auto', marginBottom:'10rem' }}>
-        {/* Team Member Card 1 */}
+        {/* Team Member Card 1 */}6%
         <div className="teamMainCard" style={{ zIndex: 2 }}>
           <LazyLoadImage className="teamImage" style={{borderRadius:'1rem'}} src="./clusterasset/people/prateek.png" alt="Prateek Bhatia"></LazyLoadImage>
           <div className="teamInfoCard">
@@ -472,18 +484,27 @@ export default function Homepage() {
         </a>
 
       ))}
-    </div>      
+    </div>   
+    <h1 className="gWhite" style={{textAlign:"center",marginLeft:"auto",marginRight:"auto",marginBottom:"5rem",fontSize:"1rem"}}>AND MANY MORE</h1>   
 
       {/* PARTNERS */}
       <div className="headerTitleContainer">
-        <h1 className="gWhite" >PARTNERS</h1>
+        <h1 className="gWhite" >PARTNERS AND CLIENTS</h1>
       </div>
       <div className='partnerDIV'>
-      {companies.map((company, index) => (
-        // <Link href={company.url}>
-          <img key={index} src={`./clusterasset/partners/${company.name}.png`} alt={company.name} onClick={() => openPartnerPopup(company)} />
-        // </Link>
-      ))}
+      {companies.map((company) => {
+        return (
+          <div key={company.name} style={{ margin: '10px' }}>
+            <img
+              src={`./clusterasset/partners/${company.name}.png`}  // Path to the company's logo image
+              alt={`Logo of ${company.name}`}  // Accessible alt text for screen readers
+              style={{ cursor: 'pointer', width: '100px', height: '100px', objectFit: 'contain' }}
+              onClick={() => redirectToTwitter(company.url)}  // On click, redirect to Twitter
+            />
+          </div>
+        );
+      })}
+
 
     </div>
         <h1 className="gWhite" style={{textAlign:"center",marginLeft:"auto",marginRight:"auto",fontSize:"1rem"}}>MANY MORE+</h1>
