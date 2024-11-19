@@ -369,10 +369,10 @@ const companies = [
       
       {/* MEET OUR TEAM */}
       <div className="headerTitleContainer" id='team'>
-        <h1 className="gWhite" >CORE TEAM AND BACKERS</h1>6%
+        <h1 className="gWhite" >CORE TEAM AND BACKERS</h1>
       </div>
       <div id='CONteam' style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem 1rem', width: '95%', margin: '2rem auto', marginBottom:'10rem' }}>
-        {/* Team Member Card 1 */}6%
+        {/* Team Member Card 1 */}
         <div className="teamMainCard" style={{ zIndex: 2 }}>
           <LazyLoadImage className="teamImage" style={{borderRadius:'1rem'}} src="./clusterasset/people/prateek.png" alt="Prateek Bhatia"></LazyLoadImage>
           <div className="teamInfoCard">
