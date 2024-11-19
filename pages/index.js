@@ -189,15 +189,7 @@ const companies = [
     { "name": "Byte AI", "url": "https://x.com/byteai", "blog": "https://clusterprotocol.ai/blog/cluster-protocol-and-byteai-partnership-reshaping-artificial-intelligence-ai-and-news-distribution-1715439661" }
 ];
 
-function redirectToTwitter(twitterLink) {
-  window.location.href = twitterLink; // Redirect to the Twitter link
-}
 
-
-
-  function redirectToTelegram(telegramLink) {
-    window.location.href = telegramLink; // Redirect to the Telegram link
-  }
   return (
     <>
     <Head>
@@ -493,21 +485,22 @@ function redirectToTwitter(twitterLink) {
       </div>
       <div className='partnerDIV'>
       {companies.map((company) => {
-        return (
-          <div key={company.name} style={{ margin: '10px' }}>
-            <img
-              src={`./clusterasset/partners/${company.name}.png`}  // Path to the company's logo image
-              alt={`Logo of ${company.name}`}  // Accessible alt text for screen readers
-              style={{ cursor: 'pointer', width: '100px', height: '100px', objectFit: 'contain' }}
-              onClick={() => redirectToTwitter(company.url)}  // On click, redirect to Twitter
-            />
-          </div>
-        );
-      })}
+  return (
+    <div key={company.name} style={{ margin: '10px' }}>
+      <a href={company.url} target="_blank" rel="noopener noreferrer">
+        <img
+          src={`./clusterasset/partners/${company.name}.png`}  // Path to the company's logo image
+          alt={`Logo of ${company.name}`}  // Accessible alt text for screen readers
+          style={{ cursor: 'pointer', width: '100px', height: '100px', objectFit: 'contain' }}
+        />
+      </a>
+    </div>
+  );
+})}
 
 
     </div>
-        <h1 className="gWhite" style={{textAlign:"center",marginLeft:"auto",marginRight:"auto",fontSize:"1rem"}}>MANY MORE+</h1>
+        <h1 className="gWhite" style={{textAlign:"center",marginLeft:"auto",marginRight:"auto",fontSize:"1rem"}}>+400 MORE</h1>
     {selectedCompany  && (
         <div className="PartnerPopup">
           <div className="PartnerPopupContent">
@@ -544,7 +537,7 @@ function redirectToTwitter(twitterLink) {
           <div className="faqsContainer">
           <FAQItem
             question="What is Cluster Protocol?"
-            answer="Cluster Protocol is a proof of compute protocol and Open Source community for decentralized AI models. In simple words, we are a decentralized hub of everything AI.  "
+            answer="Cluster Protocol is the co-ordination layer for AI agents, a carnot engine fueling the AI economy making sure the AI developers are monetized for their AI models and users get an unified seamless experience to build that next AI app/ agent within a virtual disposable environment facilitating the creation of modular, self-evolving AI agents.  "
           />
           <FAQItem
             question="Can I monetize the models I create and train using Cluster?"
