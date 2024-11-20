@@ -203,6 +203,7 @@ const companies = [
 
       <link type='image' rel='icon' href="assets/BRAND MARK/PNG/02_WHITE.png"></link>
     </Head>
+
     <div>
       <LazyLoadImage className="backgroundBoxEffect" src="assets/bgeffect.png" alt="Background"></LazyLoadImage>
       <div className="secHome" id='home'>
@@ -487,15 +488,15 @@ const companies = [
       <div className='partnerDIV'>
       {companies.map((company) => {
   return (
-    <div key={company.name} style={{ margin: '10px' }}>
-      <a href={company.url} target="_blank" rel="noopener noreferrer">
+    
+      <a key={company.name} href={company.url} target="_blank" rel="noopener noreferrer">
         <img
-          src={`./clusterasset/partners/${company.name}.png`}  // Path to the company's logo image
-          alt={`Logo of ${company.name}`}  // Accessible alt text for screen readers
-          style={{ cursor: 'pointer', width: '100px', height: '100px', objectFit: 'contain' }}
+          src={`./clusterasset/partners/${company.name}.png`}  
+          alt={`Logo of ${company.name}`}  
+      
         />
       </a>
-    </div>
+    
   );
 })}
 
