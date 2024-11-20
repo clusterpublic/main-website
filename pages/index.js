@@ -192,6 +192,14 @@ const companies = [
 
   return (
     <>
+    <Head>
+      <title>Cluster Protocol </title>
+      {/* <meta name="google-site-verification" content="JJGvDA-BM8tLfcKzOkRdenbMYi956rPw8WHFVMZhueE"></meta> */}
+      {/* <meta name='description' content="Proof of Compute Protocol"></meta> */}
+      <meta property="og:description" content={"World's first decentralized infrastructure for AI and DePINs and Github for AI models"} />
+      <meta property="og:image" content={'/thumbnail.png'} />
+      <link type='image' rel='icon' href="assets/BRAND MARK/PNG/02_WHITE.png"></link>
+    </Head>
      <div>
       <LazyLoadImage className="backgroundBoxEffect" src="assets/bgeffect.png" alt="Background"></LazyLoadImage>
       <div className="secHome" id='home'>
