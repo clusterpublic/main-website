@@ -144,6 +144,8 @@ export default function Homepage() {
       
       {"url": "https://0xpivot.com/", "name": "Pivot Ventures"},
       {"url": "https://mapleblock.capital/", "name": "Mapleblock Capital"},
+      {"url": "https://mavencapital.io/", "name": "Maven Capital"},
+      {"url": "https://fusion7.vc/", "name": "Fusion"},
       {"url": "https://www.fairumventures.com/", "name": "Fairum Ventures"},
       // {"url": "https://unrealcapital.vc/", "name": "Unreal Capital"},
       // {"url": "https://halvingscapital.com/", "name": "Halving Capital"},
@@ -194,13 +196,10 @@ const companies = [
     <>
     <Head>
       <title>Cluster Protocol </title>
-      <meta name="title" content="Decentralized Infrastructure for AI and Github for AI models">
-      <meta name="description" content="Blockchain powered decentralized infrastructure to build AI solutions, agents and chatbots.">
       {/* <meta name="google-site-verification" content="JJGvDA-BM8tLfcKzOkRdenbMYi956rPw8WHFVMZhueE"></meta> */}
       {/* <meta name='description' content="Proof of Compute Protocol"></meta> */}
       <meta property="og:description" content={"World's first decentralized infrastructure for AI and DePINs and Github for AI models"} />
       <meta property="og:image" content={'/thumbnail.png'} />
-
       <link type='image' rel='icon' href="assets/BRAND MARK/PNG/02_WHITE.png"></link>
     </Head>
 
@@ -212,8 +211,8 @@ const companies = [
 
         {/* <LottiePlayer autoplay loop src="./clusterasset/minifananim.json" style={{maxWidth:'100%'}}></LottiePlayer> */}
           {/* <LazyLoadImage style={{maxWidth:'100%'}} className='HIDEmobileView' src="assets/linewithminifan.png" alt="Line with mini fan"></LazyLoadImage> */}
-          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">CO-ORDINATION LAYER FOR <span className="gPurple">AI</span></h1>
-          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">AGENTS</h1>
+          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">CO-ORDINATION LAYER</h1>
+          <h1 style={{ fontFamily: 'b_demi' }} className="gWhite">FOR <span className="gPurple">AI</span> AGENTS</h1>
 
           <div className="secHomeInfoContainer">
             <LazyLoadImage src="assets/sidelinehome.png" alt="Sideline home" className='HIDEmobileView'></LazyLoadImage>
