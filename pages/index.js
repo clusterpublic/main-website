@@ -360,8 +360,8 @@ const companies = [
       <div className="headerTitleContainer" id='roadmap'>
         <h1 id='CONroadmap'className="gWhite" >ROADMAP</h1>
       </div>
-      <LazyLoadImage src="assets/roadmapDesktop.svg" className="roadmapDesktop HIDEmobileView" alt="Roadmap Desktop"></LazyLoadImage>
-      <LazyLoadImage src="assets/roadmapMobile.svg" className="roadmapMobile SHOWmobileView" alt="Roadmap Desktop"></LazyLoadImage>
+      <Image src="/assets/roadmapDesktop.svg" className="roadmapDesktop HIDEmobileView" alt="Roadmap Desktop" width={1500} height={800}></Image>
+      <Image src="/assets/roadmapMobile.svg" className="roadmapMobile SHOWmobileView" alt="Roadmap Desktop"  width={800} height={800}></Image>
 
       
       {/* MEET OUR TEAM */}
