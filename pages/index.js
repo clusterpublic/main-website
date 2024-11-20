@@ -192,19 +192,7 @@ const companies = [
 
   return (
     <>
-    <Head>
-      <title>Cluster Protocol </title>
-      <meta name="title" content="Decentralized Infrastructure for AI and Github for AI models">
-      <meta name="description" content="Blockchain powered decentralized infrastructure to build AI solutions, agents and chatbots.">
-      {/* <meta name="google-site-verification" content="JJGvDA-BM8tLfcKzOkRdenbMYi956rPw8WHFVMZhueE"></meta> */}
-      {/* <meta name='description' content="Proof of Compute Protocol"></meta> */}
-      <meta property="og:description" content={"World's first decentralized infrastructure for AI and DePINs and Github for AI models"} />
-      <meta property="og:image" content={'/thumbnail.png'} />
-
-      <link type='image' rel='icon' href="assets/BRAND MARK/PNG/02_WHITE.png"></link>
-    </Head>
-
-    <div>
+     <div>
       <LazyLoadImage className="backgroundBoxEffect" src="assets/bgeffect.png" alt="Background"></LazyLoadImage>
       <div className="secHome" id='home'>
         <div className="secHome1" id='CONhome'>
