@@ -39,7 +39,7 @@ const Footer = () => {
       <div className="columnFooter">
         <h3>Company</h3>
         <ul>
-          <li><Link href="/#about">About Us</Link></li>
+          <li><Link href="/">About Us</Link></li>
           {/* <li><Link href="/glossary">Glossary</Link></li> */}
           <li><Link href="/brandkit">Brandkit</Link></li>
           <li><a target="_blank" href="https://cluster-protocol.gitbook.io/whitepaper/">Whitepaper</a></li>
