@@ -1642,9 +1642,9 @@ footer {
     }
     .teamMainCard {
         width: 20rem;
-        margin: -1.5rem -1.5rem;
         height: 12rem;
-        border-radius: 1rem;
+        margin-bottom: 4rem !important;
+        transform: none !important;
     }
     .teamImage {
         width: 8rem;
@@ -1753,7 +1753,7 @@ footer {
         
     }
     .teamSocialContainer{
-        pointer-events: all;
+        margin-top: 1rem;
     }
     .gpuMain{
         width: 80%;
@@ -1763,5 +1763,8 @@ footer {
         /* margin-bottom: -5rem; */
         /* mix-blend-mode:color-burn; */
         filter: saturate(2.5) drop-shadow(rgb(151, 115, 210) 2px 4px 3rem);
+    }
+    .team-container {
+        margin: 2rem auto !important;
     }
 }
